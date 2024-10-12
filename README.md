@@ -1,4 +1,4 @@
-# Gestion du stock de DVD - Extranet (Formation Udemy - Bien débuter avec Spring et Spring Boot pour Java)
+# Gestion du stock de DVD - Extranet 
 
 ## Description du projet
 
