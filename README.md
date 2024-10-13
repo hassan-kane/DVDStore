@@ -1,10 +1,12 @@
 # Gestion du stock de DVD - Extranet 
 
+
 ## Description du projet
 
 Ce projet a pour objectif de développer une application Extranet en utilisant **Spring Boot** pour permettre au gérant d'un magasin de DVD de gérer à distance son stock. Cette solution permettra de suivre en temps réel l'état de l'inventaire, d'ajouter de nouveaux DVD, de modifier les informations des articles existants, et de supprimer ceux qui ne sont plus disponibles.
 
 L'application est accessible via une interface web sécurisée, facilitant la gestion des stocks depuis n'importe quel appareil connecté à Internet.
+
 
 ## Fonctionnalités
 
@@ -16,20 +18,22 @@ L'application est accessible via une interface web sécurisée, facilitant la ge
 - **Notifications** : Alerte lorsqu'un DVD est en rupture de stock ou atteint un seuil défini.
 - **Historique des transactions** : Suivi des entrées et sorties du stock pour analyser les mouvements.
 
+
 ## Technologies utilisées
 
 - **Backend** : Spring Boot (Java)
-- **Base de données** : []
-- **Frontend** : []
-- **Sécurité** : []
+- **Base de données** : [A définir]
+- **Frontend** : [A définir]
+- **Sécurité** : [A définir]
 - **API REST** : Exposition d'une API RESTful pour interagir avec les données du stock
 - **Outils de build** : Maven / Gradle
+
 
 ## Prérequis
 
 - **Java 17+** : [Télécharger ici](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 - **Maven** : [Télécharger Maven](https://maven.apache.org/download.cgi)
-- **[]**  : Configurer une base de données locale ou utiliser une instance distante
+- **[A définir]**  : Configurer une base de données locale ou utiliser une instance distante
 
 
 ## Installation et configuration
