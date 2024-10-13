@@ -19,7 +19,7 @@ L'application est accessible via une interface web sécurisée, facilitant la ge
 ## Technologies utilisées
 
 - **Backend** : Spring Boot (Java)
-- **Base de données** : MySQL / PostgreSQL
+- **Base de données** : []
 - **Frontend** : []
 - **Sécurité** : []
 - **API REST** : Exposition d'une API RESTful pour interagir avec les données du stock
@@ -27,7 +27,73 @@ L'application est accessible via une interface web sécurisée, facilitant la ge
 
 ## Prérequis
 
-- **Java 22** : [Télécharger ici](https://www.oracle.com/java/technologies/javase-jdk22-downloads.html)
+- **Java 17+** : [Télécharger ici](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 - **Maven** : [Télécharger Maven](https://maven.apache.org/download.cgi)
-- **MySQL** ou **PostgreSQL** : Configurer une base de données locale ou utiliser une instance distante
+- **[]**  : Configurer une base de données locale ou utiliser une instance distante
 
+
+## Installation et configuration
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/username/dvd-stock-management-springboot.git
+cd dvd-stock-management-springboot
+```
+
+### 2. Configurer l'application
+
+Renommez le fichier application.properties.example en application.properties, puis configurez les détails de votre base de données :
+
+#### **Exemple de configuration MySQL :**
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/dvd_store
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+
+#### **Configuration JPA / Hibernate :**
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
+
+### 3. Installation des dépendances
+Exécutez Maven pour installer les dépendances du projet :
+ 
+```bash
+mvn clean install
+```
+
+### 4. Lancer l'application
+Démarrez l'application Spring Boot avec la commande suivante :
+
+```bash
+mvn spring-boot:run
+````
+
+### 5. Accéder à l'application
+L'application sera accessible à l'adresse suivante :
+
+```bash
+http://localhost:8080
+```
+
+## API REST
+L'API expose plusieurs endpoints pour gérer les DVD. Voici quelques exemples :
+
+* GET /api/dvds : Récupère tous les DVD
+* GET /api/dvds/{id} : Récupère un DVD par son ID
+* POST /api/dvds : Ajoute un nouveau DVD
+* PUT /api/dvds/{id} : Met à jour un DVD existant
+* DELETE /api/dvds/{id} : Supprime un DVD
+
+
+## Tests
+Pour exécuter les tests unitaires et d'intégration, utilisez la commande suivante :
+
+```bash
+mvn test
+```
+
+## Licence
+Ce projet est sous licence [Nom de la licence, ex: MIT, Apache 2.0, GPL].
