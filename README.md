@@ -20,14 +20,14 @@ L'application est accessible via une interface web sécurisée, facilitant la ge
 
 - **Backend** : Spring Boot (Java)
 - **Base de données** : MySQL / PostgreSQL
-- **Frontend** : Thymeleaf (ou React, si utilisé pour l'interface web)
-- **Sécurité** : Authentification et gestion des utilisateurs avec Spring Security (JWT, OAuth2)
+- **Frontend** : []
+- **Sécurité** : []
 - **API REST** : Exposition d'une API RESTful pour interagir avec les données du stock
 - **Outils de build** : Maven / Gradle
 
 ## Prérequis
 
-- **Java 17+** : [Télécharger ici](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
+- **Java 22** : [Télécharger ici](https://www.oracle.com/java/technologies/javase-jdk22-downloads.html)
 - **Maven** : [Télécharger Maven](https://maven.apache.org/download.cgi)
 - **MySQL** ou **PostgreSQL** : Configurer une base de données locale ou utiliser une instance distante
 
